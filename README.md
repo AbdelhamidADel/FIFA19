@@ -11,4 +11,4 @@ Tab (3): Contains little information about me
 ### behind the scenes
 - Check This NoteBook : <a href="https://github.com/AbdelhamidADel/FIFA19/blob/main/Fifa-19%20End%20to%20End.ipynb">Click Here </a>
 
-<img src="https://preview.redd.it/pb7u6zns2tl11.jpg?auto=webp&s=06b371222d71f1b9c15c2f80e8162e28892f4d44" alt="Girl in a jacket" width="1000" height="900">
+<img src="https://preview.redd.it/pb7u6zns2tl11.jpg?auto=webp&s=06b371222d71f1b9c15c2f80e8162e28892f4d44" alt="Girl in a jacket" width="1000" height="600">
