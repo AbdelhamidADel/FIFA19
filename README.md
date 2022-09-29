@@ -4,7 +4,7 @@
 #### This App include 3 Tabs :
 Tab (1): Data analysis and visualization
 
-Tab (2): Prediction price for players according to 3 features [Age, Total Strength, Position]
+Tab (2): Prediction price for players according to 3 features [Age, Overall, Position]
 
 Tab (3): Contains little information about me
 
