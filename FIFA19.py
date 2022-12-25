@@ -441,5 +441,13 @@ with tab3:
     image3 = Image.open('qrcode.png')
     st.image(image3, caption='MY Github QR Code')
 
-
+# ---- HIDE STREAMLIT STYLE ----
+hide_st_style = """
+                    <style>
+                    #MainMenu {visibility: hidden;}
+                  
+                    header {visibility: hidden;}
+                    </style>
+                    """
+st.markdown(hide_st_style, unsafe_allow_html=True)
 
