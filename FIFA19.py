@@ -15,6 +15,11 @@ import pickle
 from sklearn.ensemble import RandomForestRegressor
 import time
 
+# ------------------------------------------------------
+st.set_page_config(layout="centered",page_icon="⚽",page_title="FiFA-19")
+
+
+
 st.title("FIFA-19")
 tab1, tab2,tab3= st.tabs(["Data Analysis & Visualization", "Prediction","About Me"])
 
@@ -407,9 +412,9 @@ with tab2:
     st.text('2- press enter in last input field then wait the result')
     st.write("-----------------------------------------")
     try:
-        Age = st.text_input('Age of player', 'input here age of player ex: 22')
-        overall_player = st.text_input('Overall of player', 'input here Overall of player ex: 90')
-        position_player = st.text_input('position of player', 'input here position of player ex: RW ').upper()
+        Age = st.text_input('Age of player', placeholder='input here age of player ex: 22')
+        overall_player = st.text_input('Overall of player', placeholder='input here Overall of player ex: 90')
+        position_player = st.text_input('position of player', placeholder='input here position of player ex: RW ').upper()
 
 
         position_dict={'RF':0,'ST':1,'LW':2,'GK':3,'RCM':4,'LF':5,'RS':6,'RCB':7,'LCM':8,
