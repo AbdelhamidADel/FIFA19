@@ -21,7 +21,7 @@ st.set_page_config(layout="centered",page_icon="⚽",page_title="FiFA-19")
 
 
 st.title("FIFA-19")
-tab1, tab2,tab3= st.tabs(["Data Analysis & Visualization", "Prediction","About Me"])
+tab1, tab2= st.tabs(["Data Analysis & Visualization", "Prediction","About Me"])
 
 df = pd.read_csv('fifa19.csv')
 
@@ -433,13 +433,13 @@ with tab2:
         st.write('Check From Your Inputs')
 
 
-with tab3:
-    st.header("How I Am ?")
-    st.text('My Name is Abdelhamid Adel, Data scientist')
-    st.text('I am From Cairo, Egypt')
-    st.text('Github : https://github.com/AbdelhamidADel')
-    image3 = Image.open('qrcode.png')
-    st.image(image3, caption='MY Github QR Code')
+# with tab3:
+#     st.header("How I Am ?")
+#     st.text('My Name is Abdelhamid Adel, Data scientist')
+#     st.text('I am From Cairo, Egypt')
+#     st.text('Github : https://github.com/AbdelhamidADel')
+#     image3 = Image.open('qrcode.png')
+#     st.image(image3, caption='MY Github QR Code')
 
 # ---- HIDE STREAMLIT STYLE ----
 hide_st_style = """
