@@ -21,7 +21,7 @@ st.set_page_config(layout="centered",page_icon="⚽",page_title="FiFA-19")
 
 
 st.title("FIFA-19")
-tab1, tab2= st.tabs(["Data Analysis & Visualization", "Prediction","About Me"])
+tab1, tab2= st.tabs(["Data Analysis & Visualization", "Prediction"])
 
 df = pd.read_csv('fifa19.csv')
 
